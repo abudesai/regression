@@ -1,0 +1,29 @@
+[
+    {
+        "name": "l1_reg",
+        "short_desc": "L1 regularization penalty.",
+        "default": 1e-3, 
+        "type": "real",
+        "range_low": 1e-6,
+        "range_high": 1e-1,
+        "run_HPO": true
+    },
+    {
+        "name": "l2_reg",
+        "short_desc": "L2 regularization penalty.",
+        "default": 1e-1, 
+        "type": "real",
+        "range_low": 1e-6,
+        "range_high": 1e-1,
+        "run_HPO": true
+    },
+    {
+        "name": "lr",
+        "short_desc": "Learning rate for optimizer.",
+        "default": 1e-3, 
+        "type": "real",
+        "range_low": 1e-6,
+        "range_high": 1e-1,
+        "run_HPO": true
+    }
+]

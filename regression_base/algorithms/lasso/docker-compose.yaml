@@ -1,0 +1,8 @@
+version: '3'
+services: 
+  algo_app:
+    build: .
+    volumes: 
+      - ./../ml_vol:/app/ml_vol
+    ports: 
+      - 3000:3000
